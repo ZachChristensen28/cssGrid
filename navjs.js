@@ -1,6 +1,6 @@
-$(function(){
-    $('.icon').on('click', function(){
-        $('nav').toggleClass('responsive');
-        console.log('clicked');
-    });
+$(function () {
+  $('.icon').on('click', function () {
+    $('#no-show').slideToggle('slow');
+
+  });
 });

@@ -21,11 +21,11 @@ nav a:hover {
     color: black;
 }
 
-.grid-responsive{
+#no-show{
     display: none;
 }
 
-nav.responsive .grid-responsive {
+.grid-responsive {
     display: grid;
     grid-gap: 1%;
     grid-template-columns: 1fr;
